@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1747056964.13515 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1747056965.71722 0
-  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1747056963 1610 afa50b78b99b57885c422bdf7699b53d ""
+["pdflatex"] 1747059460.54504 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1747059462.15418 0
+  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1747059459 1626 5490ac7c5a0d802ef61a60a310f1a24f ""
   "c:/Windows/Fonts/msyh.ttc" 1733893657 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1711630440 9755440 983b60188a8e5a7c29c06c674f428b3d ""
   "c:/Windows/Fonts/simkai.ttf" 1711630440 11789376 868a8b82664dfab00a95e3e30eaa705a ""
@@ -81,8 +81,10 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong90.tfm" 1746506579 1172 1dd258add692258fd748a53ff76ed075 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong91.tfm" 1746506579 1172 084e1e91aa4ae30efc415c3663943670 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1746498829 32080 340ef9bf63678554ee606688e7b5339d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1746498829 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1746498829 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1746498829 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1746498829 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1746498829 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1746503019 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1746499009 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -187,10 +189,10 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1746506643 5567782 00e0fb0c7cc9c7361a97e3a2230dfbe7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1746507004 3567526 bc81a049d96f0362e87452dd214ca939 ""
   "c:/texlive/2025/texmf.cnf" 1746506614 713 e69b156964470283e0530f5060668171 ""
-  "text.aux" 1747056965 847 523a81db173fd82205ca1d8a8be2a389 "pdflatex"
-  "text.out" 1747056965 365 ba4a79483e72a13adafd78c4e549311c "pdflatex"
-  "text.tex" 1747056963 1610 afa50b78b99b57885c422bdf7699b53d ""
-  "text.toc" 1747056965 371 9022a478454e597b332e163c1f2bb618 "pdflatex"
+  "text.aux" 1747059461 847 523a81db173fd82205ca1d8a8be2a389 "pdflatex"
+  "text.out" 1747059461 365 ba4a79483e72a13adafd78c4e549311c "pdflatex"
+  "text.tex" 1747059459 1626 5490ac7c5a0d802ef61a60a310f1a24f ""
+  "text.toc" 1747059461 371 9022a478454e597b332e163c1f2bb618 "pdflatex"
   (generated)
   "text.aux"
   "text.log"
