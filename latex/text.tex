@@ -1,7 +1,87 @@
-\documentclass[UTF8]{ctexart}
+\documentclass[12pt, a4paper]{article}
+
+% 中文支持（如不需要可注释掉）
+\usepackage[UTF8]{ctex} % 使用 XeLaTeX 编译
+% 英文支持
+\usepackage[english]{babel}
+
+% 页边距
+\usepackage[a4paper, margin=1in]{geometry}
+
+% 数学公式支持
+\usepackage{amsmath, amssymb, amsthm}
+
+% 图表支持
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% 代码块支持
+\usepackage{listings}
+\usepackage{xcolor}
+
+% 超链接支持
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% 自定义封面信息
+\title{\Huge\bfseries 你的论文标题}
+\author{\Large 作者姓名}
+\date{\Large \today}
+
+% 定理环境（可选）
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{lemma}{Lemma}[section]
 
 \begin{document}
 
-We are ugg group, a group from Shanghai with three brilliant fellows!
+% 封面
+\maketitle
+\thispagestyle{empty} % 去除页眉页脚
+\newpage
+
+% 目录
+\tableofcontents
+\newpage
+
+% 正文部分示例
+\section{引言}
+
+这是引言部分的内容。
+
+\section{预备知识}
+
+\subsection{定义与定理}
+
+\begin{definition}
+这是一个定义的例子。
+\end{definition}
+
+\begin{theorem}
+这是一个定理。
+\end{theorem}
+
+\begin{proof}
+这是证明过程。
+\end{proof}
+
+\section{主要结果}
+
+主内容可继续在这里书写。
+
+\section{结论}
+
+总结你的论文工作。
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{example} 某某人, \emph{书籍或文章标题}, 出版社, 年份.
+\end{thebibliography}
 
 \end{document}
