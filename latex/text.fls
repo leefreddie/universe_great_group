@@ -204,6 +204,9 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5e.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei51.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei57.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8b.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/uniheiff.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei66.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5b.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei90.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei98.tfm
@@ -365,6 +368,8 @@ INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simhei.ttf
+INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
