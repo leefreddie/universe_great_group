@@ -33,7 +33,7 @@ for num in selected_numbers:
         info = categories[num]
         filepath = os.path.join(data_dir, info["file"])
         if not os.path.exists(filepath):
-            print(f"❌ 找不到文件：{info['file']}，跳过。")
+            print(f"找不到文件：{info['file']}，跳过。")
             continue
         df = pd.read_csv(filepath, encoding='utf-8')
         for _, row in df.iterrows():
@@ -43,9 +43,9 @@ for num in selected_numbers:
                 icon=folium.Icon(color=info['color'], icon=info['icon'], prefix='fa')
             ).add_to(m)
     else:
-        print(f"⚠️ 无效编号：{num}，跳过。")
+        print(f"无效编号：{num}，跳过。")
 
 # 保存 HTML 地图
 output_html = os.path.join(current_dir, 'shanghai_kangyang_map.html')
 m.save(output_html)
-print(f"\n✅ 地图已保存到：{output_html}")
+print(f"\n地图已保存到：{output_html}")
