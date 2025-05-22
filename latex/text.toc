@@ -1,6 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}引言}{3}{section.1}%
-\contentsline {section}{\numberline {2}预备知识}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}定义与定理}{3}{subsection.2.1}%
-\contentsline {section}{\numberline {3}主要结果}{3}{section.3}%
-\contentsline {section}{\numberline {4}结论}{3}{section.4}%
