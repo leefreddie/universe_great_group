@@ -25,7 +25,11 @@ selected_numbers = [s.strip() for s in user_input.split(',')]
 
 # 初始化地图
 shanghai_center = [31.2304, 121.4737]
-m = folium.Map(location=shanghai_center, zoom_start=11)
+m = folium.Map(
+    location=shanghai_center,
+    zoom_start=11,
+    tiles='CartoDB positron'  # 简洁风格地图
+)
 
 # 加载数据并添加图标
 for num in selected_numbers:
@@ -33,7 +37,7 @@ for num in selected_numbers:
         info = categories[num]
         filepath = os.path.join(data_dir, info["file"])
         if not os.path.exists(filepath):
-            print(f"找不到文件：{info['file']}，跳过。")
+            print(f"❌ 找不到文件：{info['file']}，跳过。")
             continue
         df = pd.read_csv(filepath, encoding='utf-8')
         for _, row in df.iterrows():
@@ -43,9 +47,9 @@ for num in selected_numbers:
                 icon=folium.Icon(color=info['color'], icon=info['icon'], prefix='fa')
             ).add_to(m)
     else:
-        print(f"无效编号：{num}，跳过。")
+        print(f"⚠️ 无效编号：{num}，跳过。")
 
 # 保存 HTML 地图
 output_html = os.path.join(current_dir, 'shanghai_kangyang_map.html')
 m.save(output_html)
-print(f"\n地图已保存到：{output_html}")
+print(f"\n✅ 地图已保存到：{output_html}")
