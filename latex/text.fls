@@ -347,7 +347,6 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong61.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8b.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei80.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei73.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT text.aux
 INPUT ./text.out
 INPUT ./text.out
@@ -451,5 +450,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb
