@@ -7,7 +7,7 @@ API_KEY = 'Hoj1yAURxYIZqtkZTbMLVD8454lczIsc'
 
 # 设置请求参数
 base_url = 'http://api.map.baidu.com/place/v2/search'
-region = '香港'
+region = '广州'
 page_size = 20
 max_pages = 50  # 百度地图 API 每个关键词最多能获取 1000 条记录（20 条 × 50 页）
 
