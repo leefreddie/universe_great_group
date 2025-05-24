@@ -177,6 +177,12 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr

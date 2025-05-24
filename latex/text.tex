@@ -13,6 +13,8 @@
 \usepackage{enumitem}
 \usepackage{multirow}
 \usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{makecell}
 
 
 % 页面设置
@@ -177,17 +179,17 @@ E = \frac{\rho}{\delta}=\frac{R}{P}
   \centering
   \caption{康养城市综合评价指标数据列表}
   \begin{tabular}{c|c|cc|ccccc}
-    \hline
+    \toprule[2pt]
     \multirow{2}{*}{城市} & \multirow{2}{*}{人口数量} & \multirow{2}{*}{城市面积}& \multirow{2}{*}{平均寿命}& \multicolumn{5}{c}{公共设施数量} \\
 \cline{5-9}
 & & & & 社区 & 医院 & 养老院 & 公园 & 大学 \\
-    \hline
+    \midrule[1pt]
     常州 & 12 & 43 && 96 & 55 & 89 & 20 & 10 \\
     广州 & 34 & 47 && 90 & 73 & 118 & 69 & 35 \\
     海口 & 56 & 38 && 79 & 63 & 122 & 55 & 12 \\
     南京 & 78 & 79 && 100 & 85 & 68 & 64 & 80\\
     上海 & 90 & 45 && 58 & 176 & 103 & 112 & 72 \\
-    \hline
+    \bottomrule[2pt]
   \end{tabular}
 
   \vspace{0.5em}
@@ -195,21 +197,21 @@ E = \frac{\rho}{\delta}=\frac{R}{P}
 \end{table}
 
 
-\begin{longtable}{c|c|cc|ccccc}
+\begin{longtable}{c|ccc|ccccc}
 \caption{上海-康养城市综合评价指标数据列表} \\
-\hline
+\toprule[2pt]
 \multirow{2}{*}{区域} & \multirow{2}{*}{人口数量} & \multirow{2}{*}{区域面积}& \multirow{2}{*}{平均寿命}& \multicolumn{5}{c}{公共设施数量} \\
 \cline{5-9}
 & & & & 社区 & 医院 & 养老院 & 公园 & 大学 \\
-\hline
+\midrule[1pt]
 \endfirsthead
 
 \multicolumn{9}{c}{续表：上海-康养城市综合评价指标数据列表} \\
-\hline
+\toprule[2pt]
 \multirow{2}{*}{区域} & \multirow{2}{*}{人口数量} & \multirow{2}{*}{区域面积}& \multirow{2}{*}{平均寿命}& \multicolumn{5}{c}{公共设施数量} \\
 \cline{5-9}
 & & & & 社区 & 医院 & 养老院 & 公园 & 大学 \\
-\hline
+\midrule[1pt]
 \endhead
 
 \hline
@@ -235,6 +237,8 @@ E = \frac{\rho}{\delta}=\frac{R}{P}
 青浦 & 90 & 45 &  & 58 & 176 & 103 & 112 & 72 \\
 奉贤 & 90 & 45 &  & 58 & 176 & 103 & 112 & 72 \\
 崇明 & 90 & 45 &  & 58 & 176 & 103 & 112 & 72 \\
+
+\bottomrule[2pt]
 
 \end{longtable}
 
