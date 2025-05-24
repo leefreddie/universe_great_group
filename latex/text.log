@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  25 MAY 2025 03:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  25 MAY 2025 03:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -829,193 +829,198 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 ]
-Overfull \hbox (0.3308pt too wide) in paragraph at lines 67--81
+Overfull \hbox (0.3308pt too wide) in paragraph at lines 68--82
 \C70/zhsong/m/n/12.045/62 ^^P \C70/zhsong/m/n/12.045/4e : \C70/zhsong/m/n/12.045/63 ® \C70/zhsong/m/n/12.045/8f € \C70/zhsong/m/n/12.045/5e ∑ \C70/zhsong/bx/n/12.045/51 { \C70/zhsong/m/n/12.045/57 Œ \C70/zhsong/m/n/12.045/5e ^^B \C70/zhsong/m/n/12.045/9a ÿ \C70/zhsong/m/n/12.045/8d ( \C70/zhsong/m/n/12.045/91 œ \C70/zhsong/m/n/12.045/53 — \C70/zhsong/m/n/12.045/5c U \C70/zhsong/m/n/12.045/76 Ñ \C70/zhsong/m/n/12.045/5f S \C70/zhsong/m/n/12.045/52 ° \C70/zhsong/m/n/12.045/4e K \C70/zhsong/m/n/12.045/60 %|\C70/zhsong/m/n/12.045/30 ^^B|
  []
 
 
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
 (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 \]
+         [1
 
 ]
 
 
-Overfull \hbox (1.00935pt too wide) in paragraph at lines 163--165
+Overfull \hbox (1.00935pt too wide) in paragraph at lines 164--166
 \C70/zhsong/bx/n/12.045/51 v \C70/zhsong/bx/n/12.045/4e -|\C70/zhsong/m/n/12.045/ff ^^L| $[] \OT1/cmr/m/n/12.045 = [] [][] \OML/cmm/m/it/12.045 G[]$\OT1/cmr/m/n/12.045 ,\C70/zhsong/bx/n/12.045/66 / \C70/zhsong/bx/n/12.045/51 h \C70/zhsong/bx/n/12.045/4f S$\OML/cmm/m/it/12.045 G$\C70/zhsong/bx/n/12.045/76 Ñ \C70/zhsong/bx/n/12.045/57 G \C70/zhsong/m/n/12.045/50 <\OT1/cmr/m/n/12.045 ,$\OML/cmm/m/it/12.045 E[]$\C70/zhsong/bx/n/12.045/4e :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Overfull \hbox (2.79184pt too wide) in paragraph at lines 168--169
+Overfull \hbox (2.79184pt too wide) in paragraph at lines 169--170
 \C70/zhsong/bx/n/12.045/75 (\OT1/cmr/bx/n/12.045 Delaunay\C70/zhsong/bx/n/12.045/4e 	[][] \C70/zhsong/m/n/12.045/89 “[][] \C70/zhsong/bx/n/12.045/52 V[][] ^^F[][] \C70/zhsong/bx/n/12.045/65 π \C70/zhsong/bx/n/12.045/6c ’ \C70/zhsong/bx/n/12.045/5b ˘ \C70/zhsong/bx/n/12.045/4e 
  \C70/zhsong/m/n/12.045/6d w \C70/zhsong/bx/n/12.045/5e ^^B \C70/zhsong/bx/n/12.045/76 Ñ \C70/zhsong/bx/n/12.045/53 ; \C70/zhsong/m/n/12.045/96 b
  []
 
-<images/shanghai_hospital_location.jpg, id=282, 1411.2725pt x 1283.79625pt>
+<images/shanghai_hospital_location.jpg, id=281, 1411.2725pt x 1283.79625pt>
 File: images/shanghai_hospital_location.jpg Graphic file (type jpg)
 <use images/shanghai_hospital_location.jpg>
-Package pdftex.def Info: images/shanghai_hospital_location.jpg  used on input line 174.
+Package pdftex.def Info: images/shanghai_hospital_location.jpg  used on input line 175.
 (pdftex.def)             Requested size: 227.62206pt x 207.05708pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 174--175
+Overfull \hbox (5.0pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
 
-Overfull \hbox (2.28633pt too wide) in paragraph at lines 179--180
+Overfull \hbox (2.28633pt too wide) in paragraph at lines 180--181
 []\C70/zhsong/bx/n/12.045/4e : Ü \C70/zhsong/bx/n/12.045/5f ó \C70/zhsong/bx/n/12.045/52 0 \C70/zhsong/bx/n/12.045/8d D \C70/zhsong/bx/n/12.045/6e ê \C70/zhsong/bx/n/12.045/52 ^^F \C70/zhsong/bx/n/12.045/5e ^^C \C70/zhsong/bx/n/12.045/54 ^^H \C70/zhsong/bx/n/12.045/74 ^^F \C70/zhsong/m/n/12.045/60 '$\OML/cmm/m/it/12.045 G$\C70/zhsong/bx/n/12.045/76 Ñ \C70/zhsong/bx/n/12.045/4f · \C70/zhsong/m/n/12.045/60 o|\C70/zhsong/m/n/12.045/ff ^^L| \C70/zhsong/m/n/12.045/62 ^^Q
  []
 
 
 
-[3 <./images/shanghai_hospital_location.jpg>]
-Overfull \hbox (14.53851pt too wide) in paragraph at lines 181--182
+[2 <./images/shanghai_hospital_location.jpg>]
+Overfull \hbox (14.53851pt too wide) in paragraph at lines 182--183
 []\OT1/cmr/m/n/12.045 (1) \C70/zhsong/bx/n/12.045/52 V ^^F \C70/zhsong/bx/n/12.045/4e 	 \C70/zhsong/m/n/12.045/89 “ \C70/zhsong/m/n/12.045/97 b \C70/zhsong/bx/n/12.045/79 Ô$\OML/cmm/m/it/12.045 S$|\C70/zhsong/m/n/12.045/ff ^^Z| \C70/zhsong/bx/n/12.045/5f S \C70/zhsong/bx/n/12.045/52 V ^^F \C70/zhsong/bx/n/12.045/4e 	 \C70/zhsong/m/n/12.045/89 “ \C70/zhsong/m/n/12.045/97 b \C70/zhsong/bx/n/12.045/79 Ô$\OML/cmm/m/it/12.045 S$\C70/zhsong/bx/n/12.045/8d ä
  []
 
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 183.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 184.
 (c:/texlive/2025/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
-Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 183.
+Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 184.
 
-Overfull \hbox (3.82378pt too wide) in paragraph at lines 183--185
+Overfull \hbox (3.82378pt too wide) in paragraph at lines 184--186
 \C70/rm/m/it/12.045/57 0 \C70/rm/m/it/12.045/74 ^^F \C70/rm/m/it/12.045/7f ^^V \C70/rm/m/it/12.045/78 ^^A|\C70/rm/m/it/12.045/ff ^^L| \C70/rm/m/it/12.045/83 ∑ \C70/rm/m/it/12.045/5f ó \C70/rm/m/it/12.045/57 P \C70/rm/m/it/12.045/68 ^^G \C70/rm/m/it/12.045/62 @ \C70/rm/m/it/12.045/57 ( \C70/rm/m/it/12.045/53 : \C70/rm/m/it/12.045/7e ß \C70/rm/m/it/12.045/88 L \C70/rm/m/it/12.045/65 ? \C70/rm/m/it/12.045/53 : \C70/rm/m/it/12.045/57 ﬂ|\C70/rm/m/it/12.045/ff ^^L| \C70/rm/m/it/12.045/4e Â
  []
 
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 186.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 187.
 
-Overfull \hbox (3.85966pt too wide) in paragraph at lines 186--187
+Overfull \hbox (3.85966pt too wide) in paragraph at lines 187--188
 []\OT1/cmr/m/n/12.045 (2) \C70/rm/m/n/12.045/4e ∫ \C70/rm/m/n/12.045/53 „ \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/91 œ$\OML/cmm/m/it/12.045 P$|\C70/rm/m/n/12.045/ff ^^Z| \C70/rm/m/n/12.045/5f S \C70/rm/m/n/12.045/4e ∫ \C70/rm/m/n/12.045/53 „ \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/91 œ$\OML/cmm/m/it/12.045 P$\C70/rm/m/n/12.045/8d ä \C70/rm/m/n/12.045/59 '|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/8b Ù
  []
 
 
-Overfull \hbox (3.98564pt too wide) in paragraph at lines 188--189
+Overfull \hbox (3.98564pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/12.045 (3) \C70/rm/m/n/12.045/4e ∫ \C70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/65 6 \C70/rm/m/n/12.045/51 e$\OML/cmm/m/it/12.045 C$|\C70/rm/m/n/12.045/ff ^^Z| \C70/rm/m/n/12.045/5f S \C70/rm/m/n/12.045/4e ∫ \C70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/65 6 \C70/rm/m/n/12.045/51 e$\OML/cmm/m/it/12.045 C$\C70/rm/m/n/12.045/8d ä \C70/rm/m/n/12.045/9a ÿ|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/8b Ù
  []
 
-<images/delaunay_triangulation_shanghai.png, id=308, 722.7pt x 722.7pt>
+<images/delaunay_triangulation_shanghai.png, id=307, 722.7pt x 722.7pt>
 File: images/delaunay_triangulation_shanghai.png Graphic file (type png)
 <use images/delaunay_triangulation_shanghai.png>
-Package pdftex.def Info: images/delaunay_triangulation_shanghai.png  used on input line 192.
+Package pdftex.def Info: images/delaunay_triangulation_shanghai.png  used on input line 193.
 (pdftex.def)             Requested size: 227.62206pt x 227.61862pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 192--193
+Overfull \hbox (5.0pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
 
 
 
-Overfull \hbox (5.20848pt too wide) in paragraph at lines 220--221
+Overfull \hbox (5.20848pt too wide) in paragraph at lines 221--222
 \OML/cmm/m/it/12.045 I$\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/7f n \C70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/88 a \C70/rm/m/n/12.045/5e ¶|\C70/rm/m/n/12.045/ff ^^L| $\OML/cmm/m/it/12.045 n$\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/63 n \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/91 œ |\C70/rm/m/n/12.045/ff ^^H|\C70/rm/m/n/12.045/4e * \C70/rm/m/n/12.045/65 p|\C70/rm/m/n/12.045/ff 	||^^L|
  []
 
 
-Overfull \hbox (4.24835pt too wide) in paragraph at lines 232--233
+Overfull \hbox (4.24835pt too wide) in paragraph at lines 233--234
 []\C70/rm/m/n/12.045/51 v \C70/rm/m/n/12.045/4e -\OT1/cmr/m/n/12.045 A\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/5e ∑ \C70/rm/m/n/12.045/51 { \C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/65 p|\C70/rm/m/n/12.045/ff ^^L| \OT1/cmr/m/n/12.045 K\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/54 ^^D \C70/rm/m/n/12.045/98 y \C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/68 ^^G \C70/rm/m/n/12.045/67 C \C70/rm/m/n/12.045/91 Õ|\C70/rm/m/n/12.045/ff ^^L|
  []
 
 
-Overfull \hbox (1.39815pt too wide) in paragraph at lines 232--233
+Overfull \hbox (1.39815pt too wide) in paragraph at lines 233--234
 \OT1/cmr/m/n/12.045 E\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/7f n \C70/rm/m/n/12.045/57 G \C70/rm/m/n/12.045/88 a \C70/rm/m/n/12.045/5e ¶|\C70/rm/m/n/12.045/ff ^^L| $\OML/cmm/m/it/12.045 ^^[$\C70/rm/m/n/12.045/4e : \C70/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/7f n \C70/rm/m/n/12.045/54 ^^H \C70/rm/m/n/12.045/74 ^^F \C70/rm/m/n/12.045/60 '|\C70/rm/m/n/12.045/ff ^^L|
  []
 
 
 
-[4 <./images/delaunay_triangulation_shanghai.png>]
-Overfull \hbox (1.41466pt too wide) in paragraph at lines 258--259
+[3 <./images/delaunay_triangulation_shanghai.png>]
+Overfull \hbox (1.41466pt too wide) in paragraph at lines 259--260
 []\C70/rm/m/n/12.045/63 • \C70/rm/m/n/12.045/4e  \C70/rm/m/n/12.045/67 e \C70/rm/m/n/12.045/4e Â 
  \C70/rm/m/n/12.045/6d w|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/5e ^^? \C70/rm/m/n/12.045/5d ﬁ|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/5e 8 \C70/rm/m/n/12.045/5d ﬁ|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/53 W \C70/rm/m/n/12.045/4e ¨|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/6d w
  []
 
 
-Overfull \hbox (9.19295pt too wide) in paragraph at lines 264--275
+Overfull \hbox (9.19295pt too wide) in paragraph at lines 265--276
  [][] 
  []
 
-<images/hospital.png, id=357, 803.0pt x 602.25pt>
+<images/hospital.png, id=356, 803.0pt x 602.25pt>
 File: images/hospital.png Graphic file (type png)
 <use images/hospital.png>
-Package pdftex.def Info: images/hospital.png  used on input line 284.
+Package pdftex.def Info: images/hospital.png  used on input line 285.
 (pdftex.def)             Requested size: 227.62206pt x 170.71487pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 284--285
+Overfull \hbox (5.0pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
 
 
-<images/nursing_home.png, id=358, 803.0pt x 602.25pt>
+<images/nursing_home.png, id=357, 803.0pt x 602.25pt>
 File: images/nursing_home.png Graphic file (type png)
 <use images/nursing_home.png>
-Package pdftex.def Info: images/nursing_home.png  used on input line 291.
+Package pdftex.def Info: images/nursing_home.png  used on input line 292.
 (pdftex.def)             Requested size: 227.62206pt x 170.71487pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 291--292
+Overfull \hbox (5.0pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
-<images/community.png, id=359, 803.0pt x 602.25pt>
+<images/community.png, id=358, 803.0pt x 602.25pt>
 File: images/community.png Graphic file (type png)
 <use images/community.png>
-Package pdftex.def Info: images/community.png  used on input line 298.
+Package pdftex.def Info: images/community.png  used on input line 299.
 (pdftex.def)             Requested size: 227.62206pt x 170.71487pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 298--299
+Overfull \hbox (5.0pt too wide) in paragraph at lines 299--300
  [][] 
  []
 
 
 
-[5 <./images/hospital.png> <./images/nursing_home.png> <./images/community.png>]
+[4 <./images/hospital.png> <./images/nursing_home.png> <./images/community.png>]
 
 
-Overfull \hbox (10.81445pt too wide) in paragraph at lines 328--329
+Overfull \hbox (10.81445pt too wide) in paragraph at lines 329--330
 []\OT1/cmr/m/n/12.045 (1) \C70/rm/m/n/12.045/4f ^^X \C70/rm/m/n/12.045/53 ^^V \C70/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê \C70/rm/m/n/12.045/91 M \C70/rm/m/n/12.045/7f n \C70/rm/m/n/12.045/7b ó \C70/rm/m/n/12.045/6c ’|\C70/rm/m/n/12.045/ff ^^Z| \C70/rm/m/n/12.045/57 ˙ \C70/rm/m/n/12.045/4e é\OT1/cmr/m/n/12.045 Delaunay\C70/rm/m/n/12.045/4e 	
  []
 
 
-Overfull \hbox (3.82378pt too wide) in paragraph at lines 328--329
+Overfull \hbox (3.82378pt too wide) in paragraph at lines 329--330
 \C70/rm/m/n/12.045/89 “ \C70/rm/m/n/12.045/52 V ^^F \C70/rm/m/n/12.045/65 π \C70/rm/m/n/12.045/6c ’|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/5b ˘ \C70/rm/m/n/12.045/5e ∑ \C70/rm/m/n/12.045/51 { \C70/rm/m/n/12.045/8d D \C70/rm/m/n/12.045/6e ê \C70/rm/m/n/12.045/8f € \C70/rm/m/n/12.045/88 L \C70/rm/m/n/12.045/7a z \C70/rm/m/n/12.045/95 Ù \C70/rm/m/n/12.045/52 ^^F \C70/rm/m/n/12.045/67 ê|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/4f ^^X
  []
 
 
 
-[6]
+[5]
+
+[6
+
+]
 
 [7
 
 ]
-
-[8
-
-]
-Underfull \hbox (badness 2538) in paragraph at lines 426--427
+Underfull \hbox (badness 2538) in paragraph at lines 427--428
 []\C70/rm/m/n/12.045/73 ã \C70/rm/m/n/12.045/97 V\OT1/cmr/m/n/12.045 ,\C70/rm/m/n/12.045/5f   \C70/rm/m/n/12.045/91 — \C70/rm/m/n/12.045/95 ^^A\OT1/cmr/m/n/12.045 .\C70/rm/m/n/12.045/7e ¸ \C70/rm/m/n/12.045/54 ^^H \C70/rm/m/n/12.045/8b ƒ \C70/rm/m/n/12.045/4e ˜ - \C70/rm/m/n/12.045/78 n \C70/rm/m/n/12.045/5b ö \C70/rm/m/n/12.045/67 C \C70/rm/m/n/12.045/91 Õ \C70/rm/m/n/12.045/54 ^^Q \C70/rm/m/n/12.045/91 œ \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/51 ‡ \C70/rm/m/n/12.045/79 Õ \C70/rm/m/n/12.045/65 π \C70/rm/m/n/12.045/6c ’ \C70/rm/m/n/12.045/6b ‘ \C70/rm/m/n/12.045/8f É\OT1/cmr/m/n/12.045 [J].\C70/rm/m/n/12.045/6c ≥ \C70/rm/m/n/12.045/53 ^^W \C70/rm/m/n/12.045/5d Â \C70/rm/m/n/12.045/4e ^^Z \C70/rm/m/n/12.045/59 ' \C70/rm/m/n/12.045/5b f f
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 []\C70/rm/m/n/12.045/90 — \C70/rm/m/n/12.045/81 Í \C70/rm/m/n/12.045/54 ^^[\OT1/cmr/m/n/12.045 ,\C70/rm/m/n/12.045/88 Å \C70/rm/m/n/12.045/4e ^^\ \C70/rm/m/n/12.045/53 G\OT1/cmr/m/n/12.045 ,\C70/rm/m/n/12.045/62 ? \C70/zhsong/m/n/12.045/9e O\OT1/cmr/m/n/12.045 ,\C70/rm/m/n/12.045/7b I\OT1/cmr/m/n/12.045 .\C70/rm/m/n/12.045/65 ^^@ \C70/rm/m/n/12.045/89 ^^? \C70/rm/m/n/12.045/57 0 \C70/rm/m/n/12.045/53 : \C70/rm/m/n/12.045/68 Ó \C70/rm/m/n/12.045/67 ó \C70/rm/m/n/12.045/5e ∑ \C70/rm/m/n/12.045/51 { \C70/rm/m/n/12.045/63 ^^G \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/7e ¸ \C70/rm/m/n/12.045/54 ^^H \C70/rm/m/n/12.045/52 ^^F \C70/rm/m/n/12.045/67 ê\OT1/cmr/m/n/12.045 [J].\C70/rm/m/n/12.045/6c ^^T \C70/rm/m/n/12.045/8c a \C70/rm/m/n/12.045/79 —
  []
 
 
 
-[9] (./text.aux)
+[8] (./text.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -1028,18 +1033,18 @@ Package rerunfilecheck Info: File `text.out' has not changed.
 (rerunfilecheck)             Checksum: C7ABC89473440BE9975953F2168C0560;2652.
  ) 
 Here is how much of TeX's memory you used:
- 20630 strings out of 469608
- 354794 string characters out of 5474780
+ 20629 strings out of 469608
+ 354788 string characters out of 5474780
  730109 words of memory out of 5000000
  46600 multiletter control sequences out of 15000+600000
  696164 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,12n,83p,1117b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on text.pdf (9 pages, 1415773 bytes).
+Output written on text.pdf (9 pages, 1415809 bytes).
 PDF statistics:
- 933 PDF objects out of 1000 (max. 8388607)
- 655 compressed objects within 7 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 654 compressed objects within 7 object streams
+ 47 named destinations out of 1000 (max. 500000)
  530 words of extra memory for PDF output out of 10000 (max. 10000000)
 
