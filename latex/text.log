@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  24 MAY 2025 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  24 MAY 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,12 +683,12 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 165--166
 [5
 
 ]
-Underfull \hbox (badness 2538) in paragraph at lines 248--249
+Underfull \hbox (badness 2538) in paragraph at lines 246--247
 []\C70/zhsong/bx/n/12.045/73 ã \C70/zhsong/m/n/12.045/97 V\OT1/cmr/m/n/12.045 ,\C70/zhsong/m/n/12.045/5f   \C70/zhsong/bx/n/12.045/91 — \C70/zhsong/m/n/12.045/95 ^^A\OT1/cmr/m/n/12.045 .\C70/zhsong/bx/n/12.045/7e ¸ \C70/zhsong/bx/n/12.045/54 ^^H \C70/zhsong/bx/n/12.045/8b ƒ \C70/zhsong/bx/n/12.045/4e ˜ - \C70/zhsong/m/n/12.045/78 n \C70/zhsong/bx/n/12.045/5b ö \C70/zhsong/bx/n/12.045/67 C \C70/zhsong/bx/n/12.045/91 Õ \C70/zhsong/bx/n/12.045/54 ^^Q \C70/zhsong/bx/n/12.045/91 œ \C70/zhsong/bx/n/12.045/76 Ñ \C70/zhsong/bx/n/12.045/51 ‡ \C70/zhsong/bx/n/12.045/79 Õ \C70/zhsong/bx/n/12.045/65 π \C70/zhsong/bx/n/12.045/6c ’ \C70/zhsong/m/n/12.045/6b ‘ \C70/zhsong/bx/n/12.045/8f É\OT1/cmr/m/n/12.045 [J].\C70/zhsong/bx/n/12.045/6c ≥ \C70/zhsong/bx/n/12.045/53 ^^W \C70/zhsong/m/n/12.045/5d Â \C70/zhsong/bx/n/12.045/4e ^^Z \C70/zhsong/m/n/12.045/59 ' \C70/zhsong/bx/n/12.045/5b f f
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 []\C70/zhsong/m/n/12.045/90 — \C70/zhsong/m/n/12.045/81 Í \C70/zhsong/bx/n/12.045/54 ^^[\OT1/cmr/m/n/12.045 ,\C70/zhsong/bx/n/12.045/88 Å \C70/zhsong/bx/n/12.045/4e ^^\ \C70/zhsong/bx/n/12.045/53 G\OT1/cmr/m/n/12.045 ,\C70/zhsong/m/n/12.045/62 ? \C70/zhsong/m/n/12.045/9e O\OT1/cmr/m/n/12.045 ,\C70/zhsong/bx/n/12.045/7b I\OT1/cmr/m/n/12.045 .\C70/zhsong/bx/n/12.045/65 ^^@ \C70/zhsong/m/n/12.045/89 ^^? \C70/zhsong/bx/n/12.045/57 0 \C70/zhsong/bx/n/12.045/53 : \C70/zhsong/m/n/12.045/68 Ó \C70/zhsong/bx/n/12.045/67 ó \C70/zhsong/bx/n/12.045/5e ∑ \C70/zhsong/bx/n/12.045/51 { \C70/zhsong/bx/n/12.045/63 ^^G \C70/zhsong/bx/n/12.045/65 p \C70/zhsong/bx/n/12.045/7e ¸ \C70/zhsong/bx/n/12.045/54 ^^H \C70/zhsong/bx/n/12.045/52 ^^F \C70/zhsong/bx/n/12.045/67 ê\OT1/cmr/m/n/12.045 [J].\C70/zhsong/bx/n/12.045/6c ^^T \C70/zhsong/m/n/12.045/8c a \C70/zhsong/bx/n/12.045/79 —
  []
 
@@ -703,15 +703,15 @@ Package rerunfilecheck Info: File `text.out' has not changed.
 (rerunfilecheck)             Checksum: 83A0826D04D61AED787CF01DE22988FC;951.
  ) 
 Here is how much of TeX's memory you used:
- 17534 strings out of 469608
- 297110 string characters out of 5474780
+ 17535 strings out of 469608
+ 297133 string characters out of 5474780
  687790 words of memory out of 5000000
- 43806 multiletter control sequences out of 15000+600000
+ 43807 multiletter control sequences out of 15000+600000
  675091 words of font info for 216 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,11n,83p,769b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb>
-Output written on text.pdf (6 pages, 523881 bytes).
+Output written on text.pdf (6 pages, 523788 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  402 compressed objects within 5 object streams
