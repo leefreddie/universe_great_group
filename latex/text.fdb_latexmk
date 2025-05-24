@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748079101.27378 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748079103.44626 0
-  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748079098 9495 7eb8cd6d8675d90f63717219795be348 ""
+["pdflatex"] 1748079980.94147 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748079983.03193 0
+  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748079980 9794 6d06664c8ad9bfa46768d1b88fe803fe ""
   "c:/Windows/Fonts/msyh.ttc" 1733893657 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1711630440 9755440 983b60188a8e5a7c29c06c674f428b3d ""
   "c:/Windows/Fonts/simsun.ttc" 1733893657 18070492 992f2bdc407dde6953c5ed83ceac9a91 ""
@@ -169,6 +169,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def" 1746502316 8090 bcb38b4f148e75e16d2c33225dbca53b ""
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1746499627 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty" 1746499627 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty" 1746499627 7418 021d7c4eb11bde94592761855a3d046e ""
   "c:/texlive/2025/texmf-dist/tex/latex/cite/cite.sty" 1746499821 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
   "c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/CJK.enc" 1746499827 29591 d67c9aa515f4260cdd60fa9f76d96368 ""
   "c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/CJK.sty" 1746499827 33241 3ee25f21824a4a347866900e5037d6f3 ""
@@ -220,6 +221,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty" 1746504397 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "c:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty" 1746505775 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "c:/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty" 1746505845 1618 d81d7e8646081fd4049b99a8cd8a91df ""
+  "c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty" 1746505845 15900 3cb191e576c7a313634d2813c55d4bf1 ""
   "c:/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1746506138 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhhei.fd" 1746506580 1019 7cd050ddd331dddd340dbdbc4c07d3cc ""
   "c:/texlive/2025/texmf-dist/tex/latex/zhmetrics/c70zhsong.fd" 1746506580 1040 eae3ed52e3c6af2767e85ba1d41ebefe ""
@@ -229,9 +231,9 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1746506643 5567782 00e0fb0c7cc9c7361a97e3a2230dfbe7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1746507004 3567526 bc81a049d96f0362e87452dd214ca939 ""
   "c:/texlive/2025/texmf.cnf" 1746506614 713 e69b156964470283e0530f5060668171 ""
-  "text.aux" 1748079102 1913 a7414fd19df8cadc995467f2bd28de22 "pdflatex"
-  "text.out" 1748079102 951 83a0826d04d61aed787cf01de22988fc "pdflatex"
-  "text.tex" 1748079098 9495 7eb8cd6d8675d90f63717219795be348 ""
+  "text.aux" 1748079982 2190 61b7f539126e0dbb8497fc6c6657a6a5 "pdflatex"
+  "text.out" 1748079982 951 83a0826d04d61aed787cf01de22988fc "pdflatex"
+  "text.tex" 1748079980 9794 6d06664c8ad9bfa46768d1b88fe803fe ""
   (generated)
   "text.aux"
   "text.log"

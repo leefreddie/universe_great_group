@@ -175,6 +175,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 INPUT c:/texlive/2025/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
@@ -192,6 +194,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT ./text.out
 INPUT ./text.out
 INPUT text.out
