@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748107030.79592 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748107033.98801 0
-  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748107029 15790 fd979d8d96dc9d8ee5b788f3c456bb89 ""
+["pdflatex"] 1748109707.97888 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748109711.14799 0
+  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748109707 15760 904fd31c0a5c0f2dbf3cdf8224e9748f ""
   "c:/Windows/Fonts/msyh.ttc" 1733893657 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1711630440 9755440 983b60188a8e5a7c29c06c674f428b3d ""
   "c:/Windows/Fonts/simkai.ttf" 1711630440 11789376 868a8b82664dfab00a95e3e30eaa705a ""
@@ -184,6 +184,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1746498829 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1746498829 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1746498829 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1746498829 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1746498829 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1746498829 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1746498829 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -305,9 +306,9 @@
   "c:/texlive/2025/texmf.cnf" 1746506614 713 e69b156964470283e0530f5060668171 ""
   "images/delaunay_triangulation_shanghai.png" 1748092913 312380 6df98883adf3f3e9f81b5e89a4c98533 ""
   "images/shanghai_hospital_location.jpg" 1748094999 160578 3461201ea17039995c07f9bd895c297b ""
-  "text.aux" 1748107032 3790 28badcab21ad512c8fe62be758159777 "pdflatex"
-  "text.out" 1748107033 2210 68163b923ebb536ae1194537ef475bcb "pdflatex"
-  "text.tex" 1748107029 15790 fd979d8d96dc9d8ee5b788f3c456bb89 ""
+  "text.aux" 1748109710 3790 28badcab21ad512c8fe62be758159777 "pdflatex"
+  "text.out" 1748109710 2210 68163b923ebb536ae1194537ef475bcb "pdflatex"
+  "text.tex" 1748109707 15760 904fd31c0a5c0f2dbf3cdf8224e9748f ""
   (generated)
   "text.aux"
   "text.log"
