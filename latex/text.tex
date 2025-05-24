@@ -168,6 +168,13 @@ G=\frac{R}{P\cdot C}
 
 Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角形，使得每个三角形的顶点都是点集中的点，并且满足某些几何性质，如最大化最小角度等。这种方法在地理信息系统（GIS）中被广泛应用，可以用于分析空间数据的分布特征、计算邻近关系等。
 
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+\centering %图片居中
+\includegraphics[width=0.5\textwidth]{images/shanghai_hospital_location.jpg} %插入图片，[]中设置图片大小，{}中是图片文件名
+\caption{上海医院坐标的散点图} %最终文档中希望显示的图片标题
+\label{Fig.main2} %用于文内引用的标签
+\end{figure}
+
 为了得到资源分布合理性$G$的信息，我们选取以下几个指标：
 
 (1) 剖分三角面积$S$：当剖分三角面积$S$越大，说明资源分布越稀疏；当$S$越小，说明资源分布越密集。
@@ -175,6 +182,13 @@ Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角
 (2) 人口数量$P$：当人口数量$P$越大，说明该区域的人口越密集，资源需求越大。
 
 (3) 人均收入$C$：当人均收入$C$越高，说明该区域的经济水平越高，居民获取资源的能力越强。
+
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+\centering %图片居中
+\includegraphics[width=0.5\textwidth]{images/delaunay_triangulation_shanghai.png} %插入图片，[]中设置图片大小，{}中是图片文件名
+\caption{部分上海医院坐标的三角剖分示意图} %最终文档中希望显示的图片标题
+\label{Fig.main2} %用于文内引用的标签
+\end{figure}
 
 于是我们可以定义一个新的资源配置合理性指标$B$，综合考虑以上三个因素：
 \[
@@ -190,20 +204,6 @@ B = \frac{1}{S^2 \cdot C \cdot \rho}
 \]
 
 其中，$\rho$为人口密度。理想情况下，$B$应趋于一个常数。$B$过高或过低都说明资源配置不合理。
-\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
-\centering %图片居中
-\includegraphics[width=0.5\textwidth]{images/shanghai_hospital_location.jpg} %插入图片，[]中设置图片大小，{}中是图片文件名
-\caption{上海医院坐标的散点图} %最终文档中希望显示的图片标题
-\label{Fig.main2} %用于文内引用的标签
-\end{figure}
-
-\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
-\centering %图片居中
-\includegraphics[width=0.5\textwidth]{images/delaunay_triangulation_shanghai.png} %插入图片，[]中设置图片大小，{}中是图片文件名
-\caption{部分上海医院坐标的三角剖分示意图} %最终文档中希望显示的图片标题
-\label{Fig.main2} %用于文内引用的标签
-\end{figure}
-
 
 \subsection{康养指数}
 

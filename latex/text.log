@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  24 MAY 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.6)  24 MAY 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,28 +784,29 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 124.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3]
-<images/shanghai_hospital_location.jpg, id=280, 1411.2725pt x 1283.79625pt>
+)
+<images/shanghai_hospital_location.jpg, id=251, 1411.2725pt x 1283.79625pt>
 File: images/shanghai_hospital_location.jpg Graphic file (type jpg)
 <use images/shanghai_hospital_location.jpg>
-Package pdftex.def Info: images/shanghai_hospital_location.jpg  used on input line 195.
+Package pdftex.def Info: images/shanghai_hospital_location.jpg  used on input line 173.
 (pdftex.def)             Requested size: 227.62206pt x 207.05708pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 195--196
+Overfull \hbox (5.0pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
-<images/delaunay_triangulation_shanghai.png, id=281, 722.7pt x 722.7pt>
+[3 <./images/shanghai_hospital_location.jpg>]
+<images/delaunay_triangulation_shanghai.png, id=282, 722.7pt x 722.7pt>
 File: images/delaunay_triangulation_shanghai.png Graphic file (type png)
 <use images/delaunay_triangulation_shanghai.png>
-Package pdftex.def Info: images/delaunay_triangulation_shanghai.png  used on input line 202.
+Package pdftex.def Info: images/delaunay_triangulation_shanghai.png  used on input line 188.
 (pdftex.def)             Requested size: 227.62206pt x 227.61862pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 202--203
+Overfull \hbox (5.0pt too wide) in paragraph at lines 188--189
  [][] 
  []
 
-<example-image.pdf, id=284, 321.2pt x 240.9pt>
+<example-image.pdf, id=285, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
 Package pdftex.def Info: example-image.pdf  used on input line 242.
@@ -822,11 +823,8 @@ Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' environment!.
 
 
-Overfull \vbox (48.06982pt too high) has occurred while \output is active []
 
- [4 <./images/shanghai_hospital_location.jpg> <./images/delaunay_triangulation_shanghai.png>]
-
-[5]
+[4 <./images/delaunay_triangulation_shanghai.png>]
 Overfull \hbox (30.91132pt too wide) in paragraph at lines 256--269
  [][] 
  []
@@ -858,7 +856,7 @@ Overfull \hbox (47.29176pt too wide) in alignment at lines 297--318
 
 
 
-[6]
+[5]
 Underfull \hbox (badness 2538) in paragraph at lines 325--326
 []\C70/zhsong/bx/n/12.045/73 ‹ \C70/zhsong/m/n/12.045/97 V\OT1/cmr/m/n/12.045 ,\C70/zhsong/bx/n/12.045/5f   \C70/zhsong/bx/n/12.045/91 Ñ \C70/zhsong/m/n/12.045/95 ^^A\OT1/cmr/m/n/12.045 .\C70/zhsong/bx/n/12.045/7e ü \C70/zhsong/bx/n/12.045/54 ^^H \C70/zhsong/bx/n/12.045/8b Ä \C70/zhsong/bx/n/12.045/4e ÷ - \C70/zhsong/m/n/12.045/78 n \C70/zhsong/bx/n/12.045/5b š \C70/zhsong/bx/n/12.045/67 C \C70/zhsong/bx/n/12.045/91 Í \C70/zhsong/bx/n/12.045/54 ^^Q \C70/zhsong/bx/n/12.045/91 Ï \C70/zhsong/bx/n/12.045/76 „ \C70/zhsong/bx/n/12.045/51 à \C70/zhsong/bx/n/12.045/79 Í \C70/zhsong/bx/n/12.045/65 ¹ \C70/zhsong/bx/n/12.045/6c Õ \C70/zhsong/m/n/12.045/6b Ô \C70/zhsong/bx/n/12.045/8f ƒ\OT1/cmr/m/n/12.045 [J].\C70/zhsong/bx/n/12.045/6c ³ \C70/zhsong/bx/n/12.045/53 ^^W \C70/zhsong/m/n/12.045/5d å \C70/zhsong/bx/n/12.045/4e ^^Z \C70/zhsong/bx/n/12.045/59 ' \C70/zhsong/bx/n/12.045/5b f f
  []
@@ -870,7 +868,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
 
 
-[7] (./text.aux)
+[6] (./text.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -883,18 +881,18 @@ Package rerunfilecheck Info: File `text.out' has not changed.
 (rerunfilecheck)             Checksum: 7FF2B8C9A3CA3C36F1B29D56D4B257A5;2044.
  ) 
 Here is how much of TeX's memory you used:
- 18396 strings out of 469608
- 311413 string characters out of 5474780
+ 18395 strings out of 469608
+ 311407 string characters out of 5474780
  710633 words of memory out of 5000000
  44589 multiletter control sequences out of 15000+600000
  682550 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,11n,83p,769b,758s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,83p,769b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on text.pdf (7 pages, 1001943 bytes).
+Output written on text.pdf (6 pages, 1001583 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 707 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 35 named destinations out of 1000 (max. 500000)
  468 words of extra memory for PDF output out of 10000 (max. 10000000)
 
