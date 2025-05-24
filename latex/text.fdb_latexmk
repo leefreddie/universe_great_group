@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748077211.61361 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748077213.6791 0
-  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748077210 8053 73c6bb991a7bb0feb4da97b2b3ef2c69 ""
+["pdflatex"] 1748077570.46895 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748077572.73778 0
+  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748077569 8053 e472168160aabd516e344716f91c9b02 ""
   "c:/Windows/Fonts/msyh.ttc" 1733893657 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1711630440 9755440 983b60188a8e5a7c29c06c674f428b3d ""
   "c:/Windows/Fonts/simsun.ttc" 1733893657 18070492 992f2bdc407dde6953c5ed83ceac9a91 ""
@@ -228,9 +228,9 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1746506643 5567782 00e0fb0c7cc9c7361a97e3a2230dfbe7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1746507004 3567526 bc81a049d96f0362e87452dd214ca939 ""
   "c:/texlive/2025/texmf.cnf" 1746506614 713 e69b156964470283e0530f5060668171 ""
-  "text.aux" 1748077213 1747 01de909bd02b0414150c971e54ed74c5 "pdflatex"
-  "text.out" 1748077213 951 83a0826d04d61aed787cf01de22988fc "pdflatex"
-  "text.tex" 1748077210 8053 73c6bb991a7bb0feb4da97b2b3ef2c69 ""
+  "text.aux" 1748077572 1747 01de909bd02b0414150c971e54ed74c5 "pdflatex"
+  "text.out" 1748077572 951 83a0826d04d61aed787cf01de22988fc "pdflatex"
+  "text.tex" 1748077569 8053 e472168160aabd516e344716f91c9b02 ""
   (generated)
   "text.aux"
   "text.log"
