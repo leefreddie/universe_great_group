@@ -180,8 +180,16 @@ Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角
 \[
 B = \frac{1}{S\cdot P \cdot C}
 \]
-其中，$B$为资源配置合理性指标，$S$为剖分三角面积，$P$为人口数量，$C$为人均收入。理想情况下，$B$趋于一个常数。
 
+其中，$B$为资源配置合理性指标，$S$为剖分三角面积，$P$为人口数量，$C$为人均收入。
+
+由于$P=\rho \cdot S$，因此可以将$B$重写为
+
+\[
+B = \frac{1}{S^2 \cdot C \cdot \rho}
+\]
+
+其中，$\rho$为人口密度。理想情况下，$B$应趋于一个常数。$B$过高或过低都说明资源配置不合理。
 \begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 \centering %图片居中
 \includegraphics[width=0.5\textwidth]{images/shanghai_hospital_location.jpg} %插入图片，[]中设置图片大小，{}中是图片文件名
