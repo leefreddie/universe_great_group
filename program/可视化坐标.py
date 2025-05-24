@@ -1,55 +1,116 @@
 import os
 import pandas as pd
-import folium
+import numpy as np
+from scipy.spatial import Delaunay
+import matplotlib.pyplot as plt
+import tkinter.messagebox as msgbox
+import requests
+import time
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 设置中文字体为黑体
+plt.rcParams['axes.unicode_minus'] = False   # 正确显示负号
 
-# 获取当前目录和 data 目录
-current_dir = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.normpath(os.path.join(current_dir, '..', 'data'))
+# 从 config.py 中导入 API KEY
+from program import config
 
-# 定义类别信息（编号: 名称, 文件名, 图标颜色, 图标）
-categories = {
-    "1": {"key": "universities", "label": "大学", "file": "universities.csv", "color": "blue", "icon": "university"},
-    "2": {"key": "nursing_homes", "label": "养老院", "file": "nursing_homes.csv", "color": "green", "icon": "heart"},
-    "3": {"key": "hospitals", "label": "医院", "file": "hospitals.csv", "color": "red", "icon": "plus-square"},
-    "4": {"key": "parks", "label": "公园", "file": "parks.csv", "color": "purple", "icon": "tree"},
-}
+# 百度地图 API 逆地理编码函数
+def get_district_from_coords(lng, lat, retry=3):
+    url = "https://api.map.baidu.com/reverse_geocoding/v3/"
+    params = {
+        "ak": config.BAIDU_MAP_API_KEY,
+        "output": "json",
+        "coordtype": "wgs84ll",
+        "location": f"{lat},{lng}"
+    }
+    for _ in range(retry):
+        try:
+            response = requests.get(url, params=params, timeout=2)
+            if response.status_code == 200:
+                data = response.json()
+                return data['result']['addressComponent']['district']
+        except Exception as e:
+            time.sleep(1)
+    return None
 
-# 打印选项菜单
-print("请选择要显示的类别（可多选，用英文逗号分隔）：")
-for num, info in categories.items():
-    print(f"{num}. {info['label']}")
+def triangle_area(a, b, c):
+    return 0.5 * abs(
+        a[0] * (b[1] - c[1]) +
+        b[0] * (c[1] - a[1]) +
+        c[0] * (a[1] - b[1])
+    )
 
-# 用户输入编号
-user_input = input("输入编号（例如 1,3,4）：").strip()
-selected_numbers = [s.strip() for s in user_input.split(',')]
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.normpath(os.path.join(script_dir, '..', 'data', 'shanghai'))
 
-# 初始化地图
-shanghai_center = [31.2304, 121.4737]
-m = folium.Map(
-    location=shanghai_center,
-    zoom_start=11,
-    tiles='CartoDB positron'  # 简洁风格地图
-)
+    csv_files = ["community.csv", "hospitals.csv", "nursing_homes.csv", "parks.csv", "universities.csv"]
+    all_points = []
 
-# 加载数据并添加图标
-for num in selected_numbers:
-    if num in categories:
-        info = categories[num]
-        filepath = os.path.join(data_dir, info["file"])
-        if not os.path.exists(filepath):
-            print(f"❌ 找不到文件：{info['file']}，跳过。")
+    for filename in csv_files:
+        file_path = os.path.join(data_dir, filename)
+        try:
+            df = pd.read_csv(file_path)
+            if "经度" in df.columns and "纬度" in df.columns:
+                points = df[["经度", "纬度"]].dropna().values
+                all_points.extend(points)
+            else:
+                print(f"[警告] 文件缺少 '经度' 或 '纬度' 列：{filename}")
+        except FileNotFoundError:
+            print(f"[错误] 文件未找到：{file_path}")
+
+    if not all_points:
+        msgbox.showerror("错误", "未能读取任何有效坐标点，请检查 CSV 文件内容与路径。")
+        return
+
+    points = np.array(all_points)
+    tri = Delaunay(points)
+
+    plt.figure(figsize=(8, 6))
+    plt.triplot(points[:, 0], points[:, 1], tri.simplices, color='blue', linewidth=0.5)
+    plt.plot(points[:, 0], points[:, 1], 'o', markersize=2, color='red')
+    plt.title("上海康养资源 Delaunay 三角剖分图")
+    plt.xlabel("经度")
+    plt.ylabel("纬度")
+    plt.gca().set_aspect('equal')
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # 读取区域信息
+    data2_path = os.path.join(data_dir, 'data2.csv')
+    df_region = pd.read_csv(data2_path)
+    region_info = {
+        row['区域']: {
+            '人口': row['人口'],
+            '面积': row['面积'],
+            '收入': row['收入']
+        }
+        for _, row in df_region.iterrows()
+    }
+
+    B_results = []
+    print("\n正在计算各三角形 B 指标（含区划信息）……")
+    for i, simplex in enumerate(tri.simplices):
+        a, b, c = points[simplex]
+        S = triangle_area(a, b, c)
+        if S == 0:
             continue
-        df = pd.read_csv(filepath, encoding='utf-8')
-        for _, row in df.iterrows():
-            folium.Marker(
-                location=[row['纬度'], row['经度']],
-                popup=f"{info['label']}: {row['名称']}",
-                icon=folium.Icon(color=info['color'], icon=info['icon'], prefix='fa')
-            ).add_to(m)
-    else:
-        print(f"⚠️ 无效编号：{num}，跳过。")
+        centroid = np.mean([a, b, c], axis=0)
+        district = get_district_from_coords(centroid[0], centroid[1])
 
-# 保存 HTML 地图
-output_html = os.path.join(current_dir, 'shanghai_kangyang_map.html')
-m.save(output_html)
-print(f"\n✅ 地图已保存到：{output_html}")
+        if district and district in region_info:
+            rho = region_info[district]['人口'] / region_info[district]['面积']
+            C = region_info[district]['收入']
+            B = 1 / (S ** 2 * rho * C)
+            B_results.append((i + 1, B, district))
+        else:
+            print(f"[警告] 无法确定三角形{i + 1}所在行政区或区数据缺失。")
+
+    print("\n前10个三角形的资源配置合理性指标 B：")
+    for i, B, district in B_results[:10]:
+        print(f"三角形 {i}（{district}）: B = {B:.6e}")
+
+    msgbox.showinfo("完成", "Delaunay 剖分与 B 指标计算已完成，终端中已输出前10个结果。")
+
+if __name__ == '__main__':
+    main()
