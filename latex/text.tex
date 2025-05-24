@@ -196,10 +196,10 @@ Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角
 
 于是我们可以定义一个新的资源配置合理性指标$B$，综合考虑以上三个因素：
 \[
-B = \frac{k}{S\cdot P \cdot C}
+B = \frac{1}{S\cdot P \cdot C}
 \]
 
-其中，$B$为资源配置合理性指标，$S$为剖分三角面积，$P$为人口数量，$C$为人均收入，$k$为常数。
+其中，$B$为资源配置合理性指标，$S$为剖分三角面积，$P$为人口数量，$C$为人均收入。
 
 由于$P=\rho \cdot S$，$\rho$为人口密度,因此可以将$B$重写为
 
@@ -226,7 +226,7 @@ I = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(B_i - \overline{B})^2}
 \subsubsection{康养指数公式}
 
 \[
-A = a_1E + a_2W + a_3G - a_4\sigma
+A = a_1E + a_2W + a_3G + a_4\frac{1}{\sigma}
 \]
 
 其中A为康养指数，K为各项指标权重，E为资源配置均衡度，$\sigma$为资源配置合理性，$W$为康养资源倾斜度。这里的简化指标舍去了坐标信息，于是数据收集显得较为容易。
@@ -244,7 +244,15 @@ A = a_1E + a_2W + a_3G - a_4\sigma
 
 (4) 归一化处理：将权重进行归一化处理，使其和为1。
 
+经过计算，得到各指标的权重如下：
 
+E:0.1661
+
+W:0.0301
+
+G:0.6704
+
+$\sigma$:0.1334
 
 \section{数据计算}
 
@@ -282,7 +290,7 @@ A = a_1E + a_2W + a_3G - a_4\sigma
   \end{adjustbox}
 
   \vspace{0.5em}
-  {\footnotesize 注：生态指数数据来自中国生态环境部，公共设施数量信息来自百度地图。（下表同）}
+  {\footnotesize 注：公共设施数量信息来自百度地图。}
 \end{table}
 
 \begin{table}[h]
@@ -316,7 +324,7 @@ A = a_1E + a_2W + a_3G - a_4\sigma
   \end{adjustbox}
 
   \vspace{0.5em}
-  {\footnotesize 注：生态指数数据来自中国生态环境部，公共设施数量信息来自百度地图。（下表同）}
+  {\footnotesize 注:公共设施数量信息来自百度地图。}
 \end{table}
 
 
