@@ -11,6 +11,7 @@
 \usepackage{caption}
 \usepackage{hyperref}
 \usepackage{enumitem}
+\usepackage{multirow}
 
 
 % 页面设置
@@ -52,7 +53,6 @@
 
 \newpage
 
-\twocolumn[]
 % 正文
 \section{引言}
 
@@ -76,6 +76,8 @@
 \textbf{二、构建康养城市综合评价模型，量化城市康养发展水平；}
 
 \textbf{三、建立康养资源优化配置模型，制定切实可行的实施策略，旨在为地方政府推动康养城市建设提供科学依据与决策支持。}
+
+\twocolumn
 
 \section{模型建立}
 
@@ -155,8 +157,7 @@ E = \frac{\rho}{\delta}=\frac{R}{P}
 
 (4) 归一化处理：将权重进行归一化处理，使其和为1。
 
-
-
+\subsection{数据展示}
 
 \section{数据分析与结果}
 图片插入示例：
@@ -167,27 +168,30 @@ E = \frac{\rho}{\delta}=\frac{R}{P}
 \end{figure}
 
 \section{结论与讨论}
-\begin{table}[h]
-  \centering
-  \begin{tabular}{c|cc}
-    \hline
-         & 数值 & 等级 \\
-    \hline
-    项目A & 12   & 一般 \\
-    项目B & 34   & 良好 \\
-    项目C & 56   & 优秀 \\
-    \hline
-    \end{tabular}
-    \caption{示例表格}
-\end{table}
 
-
+\onecolumn
 % 附录
 \newpage
 \section*{附录}
-附录内容，可包含推导、补充图表等。
 
-\onecolumn
+\begin{table}[h]
+  \centering
+  \caption{康养城市综合评价指标数据列表}
+  \begin{tabular}{c|cc|ccccc}
+    \hline
+    \multirow{2}{*}{城市} & \multirow{2}{*}{人口数量} & \multirow{2}{*}{生态指数} & \multicolumn{5}{c}{公共设施数量} \\
+    \cline{4-8}
+                          &                       &                       & 社区 & 医院 & 养老院 & 公园绿地 &大学\\
+    \hline
+    常州 & 12 & 11 &   &   &   &   \\
+    广州 & 34 & 11 &   &   &   &   \\
+    海口 & 56 & 11 &   &   &   &   \\
+    南京 & 78 & 11 &   &   &   &   \\
+    上海 & 90 & 11 &   &   &   &   \\
+    \hline
+  \end{tabular}
+\end{table}
+
 % 参考文献
 \newpage
 \begin{thebibliography}{99}
