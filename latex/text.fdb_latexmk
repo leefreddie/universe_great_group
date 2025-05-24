@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748074875.33831 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748074877.3936 0
-  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748074874 8002 be88e7e6e76c79e0403e60ed56553d49 ""
+["pdflatex"] 1748075525.65815 "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" "text.pdf" "text" 1748075527.80026 0
+  "c:/Users/87805/Documents/GitHub/universe_great_group/latex/text.tex" 1748075522 7973 7ee7dfb033f4aa231facd835b54ba643 ""
   "c:/Windows/Fonts/msyh.ttc" 1733893657 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1711630440 9755440 983b60188a8e5a7c29c06c674f428b3d ""
   "c:/Windows/Fonts/simsun.ttc" 1733893657 18070492 992f2bdc407dde6953c5ed83ceac9a91 ""
@@ -32,7 +32,6 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei53.tfm" 1746506579 1172 a5c37c86ae9131b27b9c0199f3d12df2 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei57.tfm" 1746506579 1172 22fcff286e20a86fd370e6e42f5ce3ce ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5b.tfm" 1746506579 1172 2120666fa3540653fd1185d802592022 ""
-  "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5c.tfm" 1746506579 1172 bd43fa5a6a1bdc14b787de765c6df7cc ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5e.tfm" 1746506579 1172 43d03c144e7fffa57074d64aa459c451 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5f.tfm" 1746506579 1172 7048f0a8b693444590781debe54eecbd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei63.tfm" 1746506579 1172 fff11ea27394506a041a526a495f9652 ""
@@ -42,7 +41,6 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei68.tfm" 1746506579 1172 a6e39128d14a2d8e22ed8239e864feff ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei6a.tfm" 1746506579 1172 ea35fa13ee483c308a0c68cffa2f52fb ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei73.tfm" 1746506579 1172 04594028df286605c5e043f49c67e7c6 ""
-  "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei79.tfm" 1746506579 1172 b207e507f45bccbebcb511c2d8f484c9 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei7a.tfm" 1746506579 1172 8e66b7d5a581fb748da225cc80739f0e ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei7b.tfm" 1746506579 1172 25a61bc54cd072423f001bcd06ad937f ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei7e.tfm" 1746506579 1172 fc758d34799896087d8800c18ce979f8 ""
@@ -230,9 +228,9 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1746506643 5567782 00e0fb0c7cc9c7361a97e3a2230dfbe7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1746507004 3567526 bc81a049d96f0362e87452dd214ca939 ""
   "c:/texlive/2025/texmf.cnf" 1746506614 713 e69b156964470283e0530f5060668171 ""
-  "text.aux" 1748074876 1866 88c6211a87e70cd8369af24133c70b91 "pdflatex"
-  "text.out" 1748074876 1041 ae60d67acbfdc8aaea04c5231434fbce "pdflatex"
-  "text.tex" 1748074874 8002 be88e7e6e76c79e0403e60ed56553d49 ""
+  "text.aux" 1748075527 1747 01de909bd02b0414150c971e54ed74c5 "pdflatex"
+  "text.out" 1748075527 951 83a0826d04d61aed787cf01de22988fc "pdflatex"
+  "text.tex" 1748075522 7973 7ee7dfb033f4aa231facd835b54ba643 ""
   (generated)
   "text.aux"
   "text.log"
