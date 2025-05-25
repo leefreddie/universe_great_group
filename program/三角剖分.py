@@ -177,7 +177,7 @@ def main():
             msgbox.showerror("错误", f"区县数据缺少必需列：{col}")
             return
 
-    ak = '你的百度地图AK'  # 请替换为你的AK
+    ak = '你的百度地图AK'  # 请替换为你的API Key
 
     for resource_name, filename in csv_files.items():
         file_path = os.path.join(data_dir, filename)

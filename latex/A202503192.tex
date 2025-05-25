@@ -19,6 +19,9 @@
 \usepackage{float}
 \usepackage{subfigure}
 \usepackage{adjustbox}
+\usepackage{algorithm}
+\usepackage{algpseudocode} % 更好的伪代码排版
+\usepackage{amsmath} % 数学公式
 
 % 页面设置
 \geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
@@ -166,9 +169,9 @@ G=\frac{R}{P\cdot C}
 
 \subsubsection{考虑地理因素下的资源配置合理性}
 
-在考虑地理因素的情况下，我们需要引入地理位置对资源配置的影响。地理位置已经由百度地图开放平台获取。将经纬度转化为平面直角坐标系下的坐标点，使用\textbf{Delaunay三角剖分}方法对上海市的医院进行空间分析。
+在考虑地理因素的情况下，我们需要引入地理位置对资源配置的影响。地理位置已经由百度地图开放平台获取(图1)。将经纬度转化为平面直角坐标系下的坐标点，使用\textbf{Delaunay三角剖分}\cite{02}方法对上海市的医院进行空间分析。
 
-Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角形，使得每个三角形的顶点都是点集中的点，并且满足某些几何性质，如最大化最小角度等。这种方法在地理信息系统（GIS）中被广泛应用，可以用于分析空间数据的分布特征、计算邻近关系等。
+Delaunay三角剖分能够有效地将空间中的点集划分为一系列三角形(图2)，使得每个三角形的顶点都是点集中的点，并且满足某些几何性质，如最大化最小角度等。这种方法在地理信息系统（GIS）中被广泛应用，可以用于分析空间数据的分布特征、计算邻近关系等。
 
 \begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 \centering %图片居中
@@ -234,7 +237,7 @@ A = a_1E + a_2W + a_3G + a_4\frac{1}{\sigma}
 
 \subsubsection{权重计算}
 
-我们将采用熵值法\cite{02}与专家打分法计算权重。
+我们将采用熵值法\cite{03}与专家打分法计算权重。
 熵值法是一种客观赋权方法，能够有效消除主观因素对权重的影响。其基本步骤如下：
 
 (1) 数据标准化：将原始数据进行标准化处理，使其符合正态分布。
@@ -266,11 +269,11 @@ A = 0.166E + 0.030W + 0.671G + 0.133\frac{1}{\sigma}
     \toprule[2pt]
     城市 &康养指数A&人均寿命/年&排名\\
     \midrule[1pt]
-    常州 & 22383.05 & 79.87 & 1 \\
-    广州 & 19598.97 & 83.18 & 2 \\
-    海口 & 31586.07 & 79.60 & 3 \\
-    南京 & 22184.28 & 83.32 & 4 \\
-    上海 & 20117.71 & 83.18 & 114514 \\
+    常州 & 17383.05 & 79.87 & 5 \\
+    广州 & 19598.97 & 83.18 & 4 \\
+    海口 & 31586.07 & 79.60 & 1 \\
+    南京 & 22184.28 & 83.32 & 2 \\
+    上海 & 20117.71 & 83.18 & 3 \\
     \bottomrule[2pt]
   \end{tabular}
 
@@ -305,38 +308,42 @@ A = 0.166E + 0.030W + 0.671G + 0.133\frac{1}{\sigma}
 
 \section{数据分析与结果}
 
-由3.1结果可以看出，康养指数$A$越高的城市，其人均寿命也相对较高，这表明康养资源配置与居民健康水平之间存在一定的正相关关系。其中，海口市的康养指数最高，排名第一，说明其康养资源配置较为合理，居民健康水平较高；而常州市的康养指数最低，排名第48，说明其康养资源配置相对较差，康养资源的建设有待提高。
+由3.1结果可以看出，我们的简化康养指数$A$能较好拟合康养城市排名\cite{04}，且康养指数较高的城市其人均寿命也相对较高，这表明康养资源配置与居民健康水平之间存在一定的正相关关系。其中，海口市的康养指数最高，排名第一，说明其康养资源配置较为合理，居民健康水平较高；而常州市的康养指数最低，排名第五，说明其康养资源配置相对较差，康养资源的建设有待提高。
 
-由3.2结果可以看出，上海市的康养资源配置均衡度$I$较高，说明其康养资源配置较为均衡。在Delaunay三角剖分的结果中，上海市的医院、养老院和社区的分布较为均匀，说明其康养资源配置较为合理。通过对上海市的医院、养老院和社区进行空间分析，可以看出其康养资源配置存在一定的倾斜度，在市区（普陀，长宁，静安，黄浦等区）红点极为密集，这代表在市区资源丰度极高。但即使市区人口密集，平均收入较高，应有较多康养设施，在数据处理后，B值仍然表征出市区资源有些过于密集，这可能导致资源的浪费。总体上来看，外围呈现深绿色，这表明郊区的资源较少，内圈几乎为白色，这表明市中心外圈的资源平衡是极佳的，在中心能看见少数偏红的区块，但是较少的数量，说明可能在市中心内圈分布了冗余的资源。但综合来看，资源分布仍然较为均衡。
+由3.2结果可以看出，上海市的康养资源配置均衡度$I$较高，说明其康养资源配置较为均衡。在Delaunay三角剖分的结果中，上海市的医院、养老院和社区的分布较为均匀，说明其康养资源配置较为合理。通过对上海市的医院、养老院和社区进行空间分析，可以看出其康养资源配置存在一定的倾斜度，在市区（普陀，长宁，静安，黄浦等区）红点极为密集，这代表在市区资源丰度极高。但即使市区人口密集，平均收入较高，应有较多康养设施，在数据处理后，B值仍然表征出市区资源有些过于密集，这可能导致资源的浪费。总体上来看，外围呈现深绿色，这表明郊区的资源较少，内圈几乎为白色，这表明市中心外圈的资源平衡是极佳的，在中心能看见少数偏红的区块，但是较少的数量，说明可能在市中心内圈分布了冗余的资源。\textbf{但综合来看，资源分布仍然较为均衡。}
 
 \section{解决方案}
-\subsection{非算法方面}
-为了解决康养资源分布不均、医养融合深度不够等问题，本文提出以下解决方案：
 
-(1) 优化资源配置：通过建立康养资源配置模型，合理规划康养资源的布局，确保资源的均衡分布。
-
-(2) 加强医养融合：推动医疗机构与养老机构的深度融合，提升康养服务的整体水平。
-
-(3) 提升公共设施建设：加大对公共设施的投入，完善康养城市的基础设施建设，提高居民的生活质量。
-
-(4) 加强政策支持：政府应出台相关政策，鼓励社会资本参与康养城市建设，推动康养产业的发展。
-
-(5) 加强宣传教育：提高公众对康养城市建设的认知，增强居民的健康意识和自我管理能力。
-
-\subsection{算法方面}
 为了解决康养资源分布不均、医养融合深度不够等问题，本文提出以下算法方面的解决方案：
 
-(1) 优化资源配置算法：基于Delaunay三角剖分方法，对康养资源进行空间分析，优化资源配置，提高资源利用效率。
+1. \textbf{基于Delaunay三角剖分的动态优化模型}:  
+   在现有三角剖分基础上，引入时间维度（如季度人口流动数据），构建动态资源配置算法：  
+     利用Python的'scipy.spatial'库实时更新坐标点，计算各行政区三角面积 \( S \)、人口 \( P \)、收入 \( C \) 的动态值，自动生成 \( B \) 值热力图；  
+     当某区域 \( B \) 值连续3个月偏离均值±20\%时，触发预警机制，提示规划部门调整资源布局（例如上海浦东陆家嘴区域因商务人口聚集，可临时增设移动医疗站）。  
 
-(2) 数据挖掘与分析：利用大数据技术，对康养资源进行深入挖掘与分析，发现潜在问题，提出针对性的解决方案。
+2. \textbf{多目标优化算法融合}:
+   结合熵值法权重与空间分析结果，建立多目标资源配置模型：  
+     \[
+     \min \sum_{i=1}^{n} I_i + \min \sum_{j=1}^{m} |W_j - \bar{W}| \quad 
+     \]
+     \[
+     \text{s.t.} \quad R_j \geq R_{\text{min}}, \, P_j \leq P_{\text{max}}
+     \]  
+     其中，\( I_i \) 为区域均衡度，\( W_j \) 为资源倾斜度，通过粒子群优化（PSO）\cite{05}算法\\(见附录Algorithm 1)求解，兼顾均衡性与需求匹配度（如广州天河区需同时满足高收入人群对高端康养服务的需求与人口密集区的基础医疗供给）。  
 
-(3) 模型优化：对康养资源配置模型进行不断优化，提升模型的准确性和实用性，为康养城市建设提供科学依据。
 
-(4) 智能化管理：引入人工智能，实现对康养资源的智能化管理，提高资源配置的灵活性和适应性。
+3. \textbf{智能化资源调度系统}: 
+   开发“智能调度平台”，集成以下功能：  
+     \textbf{需求预测}：基于历史数据与人口模型（如Leslie\\矩阵），预测各区域未来5年康养需求（如南京江宁区新建住宅区集中，需提前规划社区养老设施）；  
+     \textbf{路径优化}：利用Dijkstra算法（见附录Algorithm 2）为流动医疗车规划最优路线，确保覆盖\\90\%的三角剖分单元（如上海杨浦区老旧小区密集区域，通过优化路线提升服务效率）；  
+     \textbf{数据可视化}：通过ECharts动态展示各城市 \( A \) 、\( B \) 指标分布，辅助决策者实时监控资源配置效果。  
 
-\newpage
-
-\onecolumn
+4. \textbf{跨区资源协同算法}:
+   针对长三角等城市群康养资源流动需求，设计\textbf{区域协同配置模型}：  
+   建立跨城市资源池，当某城市
+   \onecolumn
+   \noindent单一指标异常时（如常州医疗资源密度 \( \rho \) 低于阈值），自动调用周边城市（如南京、上海）的冗余资源进行支援；  
+   通过引力模型（见附录Algorithm 3）计算城市间资源协作强度，优先在地理邻近、经济水平相近的城市间（如上海-苏州-嘉兴）建立资源共享机制，降低跨区域调度成本。
 
 \section{结论与讨论}
 
@@ -368,7 +375,7 @@ A = 0.166E + 0.030W + 0.671G + 0.133\frac{1}{\sigma}
   \begin{adjustbox}{width=\textwidth}
   \begin{tabular}{c|c|c|c|ccccc|c|c}
     \toprule[2pt]
-    \multirow{2}{*}{城市} & \multirow{2}{*}{人口数量/万} & \multirow{2}{*}{城市面积/$km^2$}& \multirow{2}{*}{年平均收入/元}& \multicolumn{5}{c|}{公共设施数量} &\multirow{2}{*}{人均寿命/年}&\multirow{2}{*}{康养城市排名\cite{06}}\\
+    \multirow{2}{*}{城市} & \multirow{2}{*}{人口数量/万} & \multirow{2}{*}{城市面积/$km^2$}& \multirow{2}{*}{年平均收入/元}& \multicolumn{5}{c|}{公共设施数量} &\multirow{2}{*}{人均寿命/年}&\multirow{2}{*}{康养城市排名\cite{04}}\\
     \cline{5-9}
     & & & & 社区 & 医院 & 养老院 & 公园 & 院校 & &\\
     \midrule[1pt]
@@ -416,21 +423,154 @@ A = 0.166E + 0.030W + 0.671G + 0.133\frac{1}{\sigma}
   \end{adjustbox}
 
   \vspace{0.5em}
-  {\footnotesize 注:公共设施数量信息来自百度地图。}
+  {\footnotesize 注:公共设施数量信息来自百度地图，其他数据均来自上海市统计局。}
 \end{table}
 
+\begin{algorithm}
+\caption{粒子群优化算法（PSO）}
+\label{alg:pso}
+\begin{algorithmic}[1]
+\State \textbf{输入}: 粒子群规模 $N$, 维度 $D$, 最大迭代次数 $K_{\max}$
+\State \textbf{输出}: 全局最优解 $P_{gbest}$
 
+\For{每个粒子 $i \in \{1,\ldots,N\}$}
+    \For{每个维度 $d \in \{1,\ldots,D\}$}
+        \State 随机初始化位置 $x_{id} \sim U(x_{min}, x_{max})$
+        \State 随机初始化速度 $v_{id} \sim U(-|x_{max}-x_{min}|, |x_{max}-x_{min}|)$
+    \EndFor
+\EndFor
+
+\State 初始化迭代计数器 $k \gets 1$
+
+\Repeat
+    \For{每个粒子 $i \in \{1,\ldots,N\}$}
+        \State 计算适应度值 $f(\mathbf{x}_i^k)$
+        \If{当前适应度优于个体历史最优 $P_{i,pbest}^k$}
+            \State 更新 $P_{i,pbest}^k \gets f(\mathbf{x}_i^k)$
+        \EndIf
+    \EndFor
+    
+    \State 选择群体最优 $P_{gbest}^k \gets \arg\min_{i} P_{i,pbest}^k$
+    
+    \For{每个粒子 $i \in \{1,\ldots,N\}$}
+        \For{每个维度 $d \in \{1,\ldots,D\}$}
+            \State 更新速度:
+            \begin{equation*}
+                v_{id}^{k+1} = w v_{id}^k + c_1 r_1 (P_{i,pbest}^k - x_{id}^k) + c_2 r_2 (P_{d,gbest}^k - x_{id}^k)
+            \end{equation*}
+            \State 更新位置:
+            \begin{equation*}
+                x_{id}^{k+1} = x_{id}^k + v_{id}^{k+1}
+            \end{equation*}
+        \EndFor
+    \EndFor
+    
+    \State $k \gets k + 1$
+\Until{达到最大迭代次数 $k > K_{\max}$ 或满足误差阈值}
+
+\State \Return 全局最优解 $P_{gbest}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{Dijkstra 最短路径算法}
+\label{alg:dijkstra}
+
+\begin{algorithmic}[1]
+\Require 
+  \Statex 带权图 $G=(V,E)$，边权 $w(e) \geq 0,\ \forall e \in E$
+  \Statex 源节点 $s \in V$
+\Ensure
+  \Statex 源节点 $s$ 到所有节点的最短距离 $dist[\cdot]$
+  \Statex 最短路径树的前驱节点 $prev[\cdot]$
+
+\State 初始化:
+\For{每个节点 $v \in V$}
+  \State $dist[v] \gets \infty$
+  \State $prev[v] \gets \text{null}$
+\EndFor
+\State $dist[s] \gets 0$
+
+\State 创建优先队列 $Q$（按$dist$值排序）
+\For{每个节点 $v \in V$}
+  \State $Q.\text{insert}(v, dist[v])$
+\EndFor
+
+\While{$Q$ 非空}
+  \State $u \gets Q.\text{extractMin}()$ \Comment{取出当前距离最小的节点}
+  
+  \For{每个邻居节点 $v \in \text{Adj}[u]$}
+    \State $alt \gets dist[u] + w(u,v)$ \Comment{松弛操作}
+    \If{$alt < dist[v]$}
+      \State $dist[v] \gets alt$
+      \State $prev[v] \gets u$
+      \State $Q.\text{decreaseKey}(v, alt)$ \Comment{更新队列优先级}
+    \EndIf
+  \EndFor
+\EndWhile
+
+\State \Return $(dist, prev)$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{引力搜索算法（GSA）}
+\label{alg:gsa}
+
+\begin{algorithmic}[1]
+\State \textbf{输入}: 
+\Statex \quad 粒子数 $N$, 维度 $D$, 最大迭代 $T_{\max}$ 
+\Statex \quad 初始引力常数 $G_0$, 衰减因子 $\alpha$
+\State \textbf{输出}: 最优解 $\mathbf{x}_{best}$
+
+\State 随机初始化粒子位置 $\mathbf{x}_i \in [\mathbf{lb}, \mathbf{ub}],\ i=1,\dots,N$
+\State 计算初始质量 $M_i(0)$ 和适应度 $f(\mathbf{x}_i(0))$
+
+\For{$t = 1$ \textbf{to} $T_{\max}$}
+    \State 更新引力常数: $G(t) = G_0 e^{-\alpha t/T_{\max}}$
+    \State 计算当前最佳/最差适应度:
+    \Statex $\quad f_{best}(t) = \min\limits_{j\in\{1,\dots,N\}} f(\mathbf{x}_j(t))$
+    \Statex $\quad f_{worst}(t) = \max\limits_{j\in\{1,\dots,N\}} f(\mathbf{x}_j(t))$
+    
+    \For{每个粒子 $i$}
+        \State 计算惯性质量: 
+        \Statex $m_i(t) = \frac{f(\mathbf{x}_i(t)) - f_{worst}(t)}{f_{best}(t) - f_{worst}(t)}$
+        \State 标准化质量: $M_i(t) = \frac{m_i(t)}{\sum_{j=1}^N m_j(t)}$
+    \EndFor
+    
+    \For{每个粒子 $i$}
+        \State 初始化合力 $\mathbf{F}_i = \mathbf{0}$
+        \For{每个粒子 $j \neq i$}
+            \State 计算欧氏距离: $R_{ij} = \|\mathbf{x}_i(t) - \mathbf{x}_j(t)\|_2$
+            \State 计算引力:
+            \Statex $\mathbf{F}_{ij} = G(t)\frac{M_i(t)M_j(t)}{R_{ij}+\epsilon}(\mathbf{x}_j(t)-\mathbf{x}_i(t))$
+            \State 累加力: $\mathbf{F}_i = \mathbf{F}_i + \text{rand}_j \cdot \mathbf{F}_{ij}$
+        \EndFor
+        
+        \State 计算加速度: $\mathbf{a}_i(t) = \mathbf{F}_i(t)/M_i(t)$
+        \State 更新速度: $\mathbf{v}_i(t+1) = \text{rand}_i \cdot \mathbf{v}_i(t) + \mathbf{a}_i(t)$
+        \State 更新位置: $\mathbf{x}_i(t+1) = \mathbf{x}_i(t) + \mathbf{v}_i(t+1)$
+    \EndFor
+\EndFor
+
+\State \Return 全局最优解 $\mathbf{x}_{best}$
+\end{algorithmic}
+\end{algorithm}
 % 参考文献
 \newpage
 \begin{thebibliography}{99}
         \bibitem{01} 王峰.我省出台意见支持康养产业高质量发展[N].合肥日报,2024-11-13(001).
-        \bibitem{02} 王靖,张金锁.综合评价中确定权重向量的几种方法比较[J].河北工业大学学报,2001,(02):52-57.
-        \bibitem{03} 房红,张旭辉.康养产业：概念界定与理论构建[J].四川轻化工大学学报(社会科学版),2020,35(04):1-20.
-        \bibitem{04} 郑自君,袁东升,房鹏,等.攀西地区森林康养指数综合分析[J].气象科技,2021,49(05):815-822.DOI:10.19517/j.1671-6345.20200559.
-        \bibitem{05} 腾讯新闻. 上海和北京的各辖区人均收入排名[EB/OL]. \url{https://news.qq.com/rain/a/20230817A0357X00}, 访问时间：2025年5月22日。
-        \bibitem{06} 中国康养城市100强名单[EB/OL]. \url{https://www.maigoo.com/news/727956.html}, 访问时间：2025年5月22日。
-\end{thebibliography}
-    % 添加更多参考文献
+        \bibitem{02} 百度百科. Delaunay三角剖分[EB/OL]. \url{https://baike.baidu.com/item/%E4%B8%89%E8%A7%92%E5%89%96%E5%88%86?fromModule=lemma_search-box}, 访问时间：2025年5月24日。
+        \bibitem{03} 王靖,张金锁.综合评价中确定权重向量的几种方法比较[J].河北工业大学学报,2001,(02):52-57.
+        \bibitem{04} 中国康养城市100强名单[EB/OL]. \url{https://www.maigoo.com/news/727956.html}, 访问时间：2025年5月24日。
+        \bibitem{05} 刘国海,万亚连,沈跃,等.基于改进粒子群算法的高地隙无人喷雾机对不规则凸田块的全覆盖作业路径规划[J].华南农业大学学报,2025,46(03):390-398.。
+        \bibitem{06} 郑自君,袁东升,房鹏,等.攀西地区森林康养指数综合分析[J].气象科技,2021,49(05):815-822.DOI:10.19517/j.1671-6345.20200559.
+        \bibitem{07} 百度地图开放平台. \url{https://lbsyun.baidu.com/}, 访问时间：2025年5月24日。
+        \bibitem{08} 房红,张旭辉.康养产业：概念界定与理论构建[J].四川轻化工大学学报(社会科学版),2020,35(04):1-20.
+        \bibitem{09} 何伟俊,万忠平.基于改进Delaunay三角剖分算法的房屋面群自动综合[J].地理空间信息,2025,23(03):114-117.
+        \bibitem{10} 腾讯新闻. 上海和北京的各辖区人均收入排名[EB/OL]. \url{https://news.qq.com/rain/a/20230817A0357X00}, 访问时间：2025年5月22日
 
+
+\end{thebibliography}
 
 \end{document}

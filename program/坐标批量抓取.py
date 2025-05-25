@@ -2,12 +2,12 @@ import requests
 import time
 import csv
 
-# 替换为你自己的百度地图 API Key
-API_KEY = 'Hoj1yAURxYIZqtkZTbMLVD8454lczIsc'
+# API Key已替换为无意义字符串
+API_KEY = 'abcdefghijklmnopqrstuvwsyz'
 
 # 设置请求参数
 base_url = 'http://api.map.baidu.com/place/v2/search'
-region = '广州'
+region = '某某'  # 替换为你需要查询的城市
 page_size = 20
 max_pages = 50  # 百度地图 API 每个关键词最多能获取 1000 条记录（20 条 × 50 页）
 
