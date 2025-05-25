@@ -58,26 +58,32 @@ def calc_G(df):
 def main():
     # 读取数据
     df1 = pd.read_csv('data/data1.csv')
-    df2 = pd.read_csv('data/shanghai/data2.csv')
-    
-    for name, df in zip(['Data1', 'Data2'], [df1, df2]):
-        E = calc_E(df)
-        W = calc_W(df)
-        G = calc_G(df)
-        sigma = calculate_sigma(G)
-        # 构建新DataFrame
-        result = pd.DataFrame({
-            'E': E,
-            'W': W,
-            'G': G,
-            'sigma': [sigma]*len(df)
-        })
-        # 熵值法权重分析
-        weights = calculate_entropy_weight(result.values)
-        print(f"{name} E/W/G/σ 熵值法权重：")
-        for col, w in zip(['E','W','G','σ'], weights):
-            print(f"{col}: {w:.4f}")
-        print()
+    city_names = df1['区域'].tolist()
+    E = calc_E(df1)
+    W = calc_W(df1)
+    G = calc_G(df1)
+    sigma = calculate_sigma(G)
+    # 构建新DataFrame
+    result = pd.DataFrame({
+        'E': E,
+        'W': W,
+        'G': G,
+        'sigma': [sigma]*len(df1)
+    })
+    # 熵值法权重分析
+    weights = calculate_entropy_weight(result.values)
+    print(f"各城市E/W/G/σ 熵值法权重：")
+    for col, w in zip(['E','W','G','σ'], weights):
+        print(f"{col}: {w:.4f}")
+    print()
+    # 计算A
+    A = weights[0]*E + weights[1]*W + weights[2]*G + weights[3]*(1/sigma)
+    df1['A'] = A
+    print('各城市A值如下：')
+    for city, a in zip(city_names, A):
+        print(f'{city}: {a:.4f}')
+    # 保存到csv
+    df1[['区域','A']].to_csv('city_A.csv', index=False)
 
 if __name__ == "__main__":
     main() 
